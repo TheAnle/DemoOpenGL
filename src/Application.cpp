@@ -81,6 +81,7 @@ int main(void)
         Shader shader("res/shader/Basic.shader");
         shader.Bind();
         shader.SetUniform4f("u_Color", 0.8f, 0.3f, 0.8f, 1.0f);
+        shader.SetUniformMat4f("u_MVP", proj);
 
         Texture texture("res/textures/jinliu.png");
         texture.Bind();
