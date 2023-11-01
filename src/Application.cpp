@@ -22,6 +22,8 @@
 
 #include "tests/TestClearColor.h"
 #include "tests/TestTexture2D.h"
+#include "tests/TestSandbox.h"
+#include "tests/TestSandboxs.h"
 
 
 int main(void)
@@ -71,6 +73,8 @@ int main(void)
 
         testMenu->RegisterTest<test::TestClearColor>("Clear Color");
         testMenu->RegisterTest<test::TestTexture2D>("2D Texture");
+        testMenu->RegisterTest<test::TestSandbox>("Box Sand");
+        testMenu->RegisterTest<test::TestSandboxs>("many boxs");
 
         while (!glfwWindowShouldClose(window))
         {

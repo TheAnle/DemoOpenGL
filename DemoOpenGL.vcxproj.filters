@@ -63,6 +63,12 @@
     <ClCompile Include="src\tests\TestTexture2D.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\tests\TestSandbox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tests\TestSandboxs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="res\shader\Basic.shader" />
@@ -474,6 +480,7 @@
     <None Include="src\vender\glm\gtx\wrap.inl">
       <Filter>头文件</Filter>
     </None>
+    <None Include="res\shader\box.shader" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Renderer.h">
@@ -1374,6 +1381,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\tests\TestTexture2D.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tests\TestSandbox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tests\TestSandboxs.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
